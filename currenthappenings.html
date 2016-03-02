@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Final Project</title>
+  <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"> 
+	<link a href='https://fonts.googleapis.com/css?family=Dosis|Marvel' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="themes/theme1.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+</head>
+<body>
+<!-- Amanda Mann
+     currenthappenings.html
+     INFO2439 WW
+     Brown
+     11/19/2015
+-->
+	<div data-role="page" data-theme="a">
+        <div data-role="header" data-position="fixed" >
+			<a href="projecthome.html" data-role="button" ><img src="_icons/home4.png"class="homeicon" ></a>
+            <h1>Weather Watchers</h1>
+			<a href="https://twitter.com/MandaSue1979">Twitter</a>
+
+        </div><!-- Closing Header Div -->
+
+		
+<div data-role="content">
+			<div class="alerts">
+			<p>NO current watches, warnings,<br> or alerts for Nebraska</p><br>
+
+			</div>
+			<ul data-role="listview">
+				<li><a href="http://www.spc.noaa.gov/products/outlook/"><img src="_icons/map30.png" class="ui-li-icon-l">SPC Outlooks</a></li>
+				<li><a href="http://www.weather.gov/oax/"><img src="_icons/warning41.png" class="ui-li-icon-l">NWS Watches and Warnings</a></li>
+				<li><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:KNELINCO61"><img src="_icons/warm.png" class="ui-li-icon-l">My Weather Station</a></li>
+			</ul><br>
+			
+			<h2>Location of my weather station:</h2>
+			<div class="maps">
+			<iframe src="http://mapbuildr.com/frame/ahvxaz" frameborder="0" height="300" width="300"></iframe>
+
+			</div>
+		
+		</div> <!--Closing Content Div -->
+			
+	
+	<div data-role="footer" data-position="fixed">
+		<p>Weather Watchers &copy; 2015</p>
+		</div><!--Closing Footer Div -->
+   </div><!--Closing Page Div-->	
+
+</body>
+</html>
